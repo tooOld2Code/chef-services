@@ -1,4 +1,4 @@
-@use 'typography' as *;
+@use '../abstracts/typography' as *;
 
 .ff-base {
   font-family: $ff-base;

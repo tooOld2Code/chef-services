@@ -1,5 +1,21 @@
 @use "../abstracts" as *;
 
+.mx-auto {
+  margin-inline: auto;
+}
+
+.push-right {
+  margin-left: auto
+}
+
+.section {
+  padding-block: $section-padding;
+}
+
+.hero {
+  padding-block: $hero-padding;
+}
+
 @each $size-name, $size-value in $sizes {
   .margin {
     &-#{$size-name} {

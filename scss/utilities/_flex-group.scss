@@ -1,0 +1,6 @@
+@use '../abstracts' as *;
+
+.flex-group {
+  display: flex;
+  gap: var(--flex-gap, $flex-group-gap);
+}
