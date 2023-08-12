@@ -11,10 +11,85 @@
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@400;700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class="hero container bg-neutral-900 mx-auto">
-      <h1 class="ff-accent fs-800 clr-neutral-200">Home cooked meals delivered straight to you door</h1>
-    </div>
-  
+    <header class="primary-header | margin-block-start-24">
+      <img class="logo | mx-auto bg-primary-400" src="/assets/logo.svg" alt="Chef John Wellington" class="logo">
+      <nav class="primary-navigation | margin-block-start-24">
+        <ul class="flex-group | mx-auto margin-block-start-24">
+          <li><a href="#about">About</a></li>
+          <li><a href="#meals">Meals</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero | text-center clr-neutral-100 bg-neutral-900">
+        <div class="container">
+          <h1 class="fs-900 margin-block-end-48">Homecooked meals delivered straight to your door</h1>
+          
+          <button class="button" data-type="accent">Place order</button>
+          <a href="#about" class="button" data-type="outline">More info</a>
+      
+        </div>
+      </section>      
+
+      <section class="section" id="about">
+        <div class="container">
+          <div class="even-columns">
+            <div>
+              <picture>
+                <source srcset="/assets/about.avif" type="image/avif">
+                <source srcset="/assets/about.webp" type="image/webp">
+                <img class="shift-up box-shadow-1" src="/assets/about.jpg" alt="several plates of food seen from above on a white table, some with figs and basil and others with grapefruit and sliced bananas with a brown sauce on top">
+              </picture>
+            </div>
+            <div class="flow">
+              <header class="section-header">
+                <h2 class="fs-800 ff-accent clr-primary-500">About Us</h2>
+                  <p class="fs-600 uppercase">An interesting sub-head</p>
+              </header>
+              <p class="lead | fs-500 fw-700 clr-neutral-900 uppercase">Intro to following</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam iusto non, explicabo ducimus eaque necessitatibus suscipit illum aliquam ab deserunt minus deleniti delectus, quas cumque, fugit consectetur excepturi architecto corporis?</p>
+              <p>Ducimus, minima vero. Excepturi recusandae delectus architecto repellendus, eligendi deserunt reprehenderit fugit tenetur laborum debitis amet optio nemo beatae totam quo ullam dolores veniam cum illo officiis cupiditate voluptatem nostrum?</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="section | bg-neutral-200 text-center">
+        <div class="container">
+          <header class="section-heading" data-decoration="true">
+            <h2 class="fs-800 clr-primary-500 ff-accent">This is a nice big heading</h2>
+            <p class="fs-600 uppercase">This is a subhead which mentions some interesting things</p>
+          </header>
+          <div class="auto-fit-columns">
+            <div>
+              <h3 class="fs-500 fw-bold clr-neutral-900 uppercase">This is a subtitle</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam egestas egestas dignissim. Quisque
+                pretium nisi a rhoncus posuere.</p>
+            </div>
+            <div>
+              <h3 class="fs-500 fw-bold clr-neutral-900 uppercase">This is a subtitle</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam egestas egestas dignissim. Quisque
+                pretium nisi a rhoncus posuere.</p>
+            </div>
+            <div>
+              <h3 class="fs-500 fw-bold clr-neutral-900 uppercase">This is a subtitle</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam egestas egestas dignissim. Quisque
+                pretium nisi a rhoncus posuere.</p>
+            </div>
+            <div>
+              <h3 class="fs-500 fw-bold clr-neutral-900 uppercase">This is a subtitle</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam egestas egestas dignissim. Quisque
+                pretium nisi a rhoncus posuere.</p>
+            </div>
+          </div>        </div>
+      </section>
+
+    </main>
+
+    <footer></footer>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
